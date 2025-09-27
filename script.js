@@ -41,6 +41,7 @@ if (votesInteresting === votesMindblowing) {
   console.log("Mindblowing Fact!!");
 }
 
-//Testing for connection... ()
+//Testing for connection... (SUCESSFULLY CONNECTED TO "SCHOOL iPAD")
 //Testing for connection... (FAILED TO CONNECT TO VS CODE)
+
 
