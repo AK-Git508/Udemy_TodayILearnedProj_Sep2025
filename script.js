@@ -31,7 +31,7 @@ const age1 = calcFactAge(2015);
 console.log(age1);
 
 let votesInteresting = 20;
-let votesMindblowing = 23;
+let votesMindblowing = 5;
 
 if (votesInteresting === votesMindblowing) {
   alert("This fact is equally interesting and mindblowing");
@@ -39,6 +39,20 @@ if (votesInteresting === votesMindblowing) {
   console.log("Interesting Fact!");
 } else if (votesInteresting < votesMindblowing) {
   console.log("Mindblowing Fact!!");
+}
+
+let votesFalse = 7;
+const totalUpvotes = votesInteresting + votesMindblowing;
+
+const message =
+  totalUpvotes > votesFalse
+    ? "The fact is true"
+    : "The fact is False, check more sources...";
+
+//alert(message);
+
+const text = "Libson is the capital of Portugal";
+
 }
 
 //Testing for connection... (SUCESSFULLY CONNECTED TO "SCHOOL iPAD")
