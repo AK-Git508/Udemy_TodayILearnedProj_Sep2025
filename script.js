@@ -41,7 +41,7 @@ if (votesInteresting === votesMindblowing) {
   console.log("Mindblowing Fact!!");
 }
 
-let votesFalse = 7;
+let votesFalse = 77;
 const totalUpvotes = votesInteresting + votesMindblowing;
 
 const message =
@@ -52,10 +52,22 @@ const message =
 //alert(message);
 
 const text = "Libson is the capital of Portugal";
+const upperText = text.toUpperCase();
+console.log(upperText);
 
-}
+// Issues...
+
+const str = 'The current fact is "${text}". It is $
+{calcFactAge(
+  2015
+)} years old. It is most likely ${
+  totalUpvotes > votesFalse ? "correct" : "not true"
+}.';
+console.log(str);
+
 
 //Testing for connection... (SUCESSFULLY CONNECTED TO "SCHOOL iPAD")
 //Testing for connection... (FAILED TO CONNECT TO VS CODE)
+
 
 
