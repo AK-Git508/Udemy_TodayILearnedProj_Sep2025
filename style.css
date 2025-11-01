@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: oklch(21.6% 0.006 56.043);
+  background-color: rgb(28, 25, 23);
   color: white;
   font-family: "sono" sans-serif;
   padding: 40px;
@@ -83,7 +83,7 @@ h1 {
   text-transform: uppercase;
   font-size: 14px;
   font-family: "Coiny", sans-serif;
-  color: oklch(98.5% 0.001 106.423);
+  color: #fafaf9;
   padding-top: 3px;
   padding-left: 10px;
   padding-right: 10px;
@@ -99,7 +99,7 @@ h1 {
 
 .vote-buttons button {
   border: none;
-  background-color: oklch(55.404% 0.0135 59.263);
+  background-color: #79716b;
   font-size: 18px;
   padding: 6px 12px;
   border-radius: 100px;
@@ -111,7 +111,7 @@ h1 {
 }
 
 .vote-buttons button:hover {
-  background-color: oklch(21.6% 0.006 56.043);
+  background-color: hsl(24, 10%, 10%);
 }
 
 ul {
@@ -120,7 +120,7 @@ ul {
 
 .source:link,
 .source:visited {
-  color: oklch(55.3% 0.013 58.071);
+  color: rgb(121, 113, 107);
   text-decoration: none;
   margin-left: 12px;
   transition: 0.33ss;
@@ -128,7 +128,7 @@ ul {
 
 .source:hover,
 .source:active {
-  color: oklch(70.7% 0.165 254.624);
+  color: #51a2ff;
 }
 
 .btn {
@@ -178,7 +178,7 @@ ul {
 .fact-form select {
   width: 220px;
   border: none;
-  background-color: oklch(44.4% 0.011 73.639);
+  background-color: rgb(87, 83, 77);
   border-radius: 100px;
   padding: 16px;
   font-size: 18px;
@@ -226,4 +226,3 @@ ul {
     width: auto;
   }
 }
-
